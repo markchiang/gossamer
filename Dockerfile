@@ -11,3 +11,4 @@ RUN cd gossamer && \
     cmake .. && \
     make && \
     make install
+RUN apt-get install -y rename
